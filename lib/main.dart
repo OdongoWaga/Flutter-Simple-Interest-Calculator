@@ -37,7 +37,7 @@ class _SIFormState extends State<SIForm> {
 
   String result = "";
 
-  var _currencies = ['Rupees', 'Dollars', 'Pounds'];
+  var _currencies = ['Shillings', 'Dollars', 'Pounds'];
   var _currentItemSelected;
 
   @override
@@ -48,12 +48,9 @@ class _SIFormState extends State<SIForm> {
 
   @override
   Widget build(BuildContext context) {
-   // TextStyle textStyle = Theme.of(context).textTheme.title;
+    // TextStyle textStyle = Theme.of(context).textTheme.title;
     TextStyle textStyle = TextStyle(
-      fontStyle : FontStyle.italic,
-      color: Colors.white,
-      fontSize: 20.0
-    );
+        fontStyle: FontStyle.italic, color: Colors.white, fontSize: 20.0);
 
     return Scaffold(
       appBar: AppBar(
